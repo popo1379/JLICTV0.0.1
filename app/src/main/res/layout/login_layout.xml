@@ -1,0 +1,67 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:stretchColumns="0,3"
+    android:background="@drawable/home_down"
+    android:id="@+id/login_Tablelayout">
+
+
+    <TableRow>
+        <TextView />
+        <TextView
+            android:text="学   号："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            />
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            android:minWidth="220px"/>
+        <TextView />
+    </TableRow>
+    <TableRow android:layout_marginTop="20px">
+        <TextView />
+        <TextView
+            android:text="密  码："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="220px"
+            android:textSize="24px"
+            android:inputType="textPassword"/>
+        <TextView />
+    </TableRow>
+    <TableRow android:layout_marginTop="20px">
+        <TextView />
+        <Button
+            android:id="@+id/login"
+            android:text="登录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/quit"
+            android:text="退出"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView />
+    </TableRow>
+    <TableRow android:layout_marginTop="20px">
+        <TextView />
+        <CheckBox
+            android:id="@+id/remember_pass"
+            android:layout_height="wrap_content"
+            android:text="记住密码"
+            />
+
+    </TableRow>
+</TableLayout>

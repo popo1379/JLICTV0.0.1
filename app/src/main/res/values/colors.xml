@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#990033</color>
+    <color name="colorPrimaryDark">#FF0033</color>
+    <color name="colorAccent">#990033</color>
+    <color name="swipe_color_1">#FFCC00</color>
+    <color name="swipe_color_2">#66FFCC</color>
+    <color name="swipe_color_3">#FF0033</color>
+    <color name="swipe_color_4">#996633</color>
+</resources>
